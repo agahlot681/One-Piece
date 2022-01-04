@@ -1,4 +1,27 @@
-site.nav {
-    text-decoration: none;
-    list-style: none;
+html {
+    background-color: rgb(218, 157, 157);
 }
+/*Site Nav design Start*/
+.site-nav ul{
+    margin: 0px;
+    padding: 20px 0px;
+}
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+.site-nav a{
+    display: box;
+    border: 2px solid black;
+    padding: 10px 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;    
+}
+.site-nav a:hover{
+    background-color: #4c1434;
+    text-decoration: underline;
+    transition-duration: 1s;
+}
+/*Site Nav design End*/
