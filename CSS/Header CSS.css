@@ -1,4 +1,6 @@
-
+html {
+    background-color: rgb(218, 157, 157);
+}
 /*Site Nav design Start*/
 .site-nav ul{
     margin: 0px;
@@ -22,7 +24,6 @@
     text-decoration: underline;
     transition-duration: 1s;
 }
-    /*Dropdown button design Start*/
 .dropbtn {
     background-color: rgb(218, 157, 157);
     color: black;
@@ -64,50 +65,4 @@
     background-color: red;
     text-decoration: none;
 }
-    /*Dropdown button design End*/
-/* Site-Nav design End*/
-
-body, html {
-    height: 100%;
-}
-.hero-image{
-    margin-top: 50px;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/Ships/Sunny\ Go\ Water\ color.jpg);
-    height: 80%;
-    background-position: center;
-    background-repeat:repeat;
-    background-size:contain;
-    position: relative;
-}
-@font-face {
-    font-family: OnePieceFont;
-    src: url(../Font/one\ piece\ font.ttf);
-}
-.hero-text {
-    text-align: center;
-    font-family: OnePieceFont;
-    font-size: 30px;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    color: white;
-}
-.hero-text button {
-    border: 2px solid black;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: black;
-    background-color: #ddd;
-    text-align: center;
-    cursor: pointer;
-}
-.hero-text button:hover{
-    background-color: #555;
-    color: white;
-}
-.para{
-    margin-top: 100px;
-    color: yellow;
-}
+/*Site Nav design End*/
