@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 html {
     background-color: rgb(218, 157, 157);
 =======
@@ -32,8 +33,34 @@ img {
     background-color: #4c1434;
     text-decoration: underline;
     transition-duration: 1s;
+=======
+/*Site Nav design Start*/
+.site-nav ul {
+  margin: 0px;
+  padding: 5px 0px;
 }
+.site-nav li {
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+}
+.site-nav a {
+  display: inline-block;
+  border: 2px solid black;
+  padding: 10px 30px;
+  margin-top: 0px;
+  text-decoration: none;
+  color: black;
+>>>>>>> Stashed changes
+}
+.site-nav a:hover {
+  background-color: #4c1434;
+  text-decoration: underline;
+  transition-duration: 1s;
+}
+/*Dropdown button design Start*/
 .dropbtn {
+<<<<<<< Updated upstream
     display: inline;
     background-color: rgb(218, 157, 157);
     color: black;
@@ -79,6 +106,16 @@ img {
   overflow: hidden;
   float: left;
 >>>>>>> be1a87a2216f19f3430d31781bc979960846e048
+=======
+  background-color: rgb(218, 157, 157);
+  color: black;
+  padding: 10px 20px;
+  border: 2px solid black;
+}
+.dropdown {
+  overflow: hidden;
+  float: left;
+>>>>>>> Stashed changes
 }
 .dropdown .dropbtn {
   font-size: 16px;
@@ -92,6 +129,7 @@ img {
   background-color: #3e8e41;
 }
 .dropdown-content {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     display:none ;
     position: absolute;
@@ -106,6 +144,8 @@ img {
     display: block;
     text-align: left;
 =======
+=======
+>>>>>>> Stashed changes
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -119,7 +159,10 @@ img {
   text-decoration: none;
   display: block;
   text-align: left;
+<<<<<<< Updated upstream
 >>>>>>> be1a87a2216f19f3430d31781bc979960846e048
+=======
+>>>>>>> Stashed changes
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -127,6 +170,7 @@ img {
 .dropdown-content a:hover {
   background-color: red;
   text-decoration: none;
+<<<<<<< Updated upstream
 }
 <<<<<<< Updated upstream
 /*Site Nav design End*/
@@ -312,4 +356,121 @@ body {
   padding-bottom: 10px;
 }
 >>>>>>> be1a87a2216f19f3430d31781bc979960846e048
+>>>>>>> Stashed changes
+=======
+}
+/*Dropdown button design End*/
+/* Site-Nav design End*/
+
+body,
+html {
+  height: 100%;
+}
+.hero-image {
+  margin-top: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Images/Ships/Sunny\ Go\ Water\ color.jpg);
+  height: 80%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  position: relative;
+}
+@font-face {
+  font-family: OnePieceFont;
+  src: url(../Font/one\ piece\ font.ttf);
+}
+.hero-text {
+  text-align: center;
+  font-family: OnePieceFont;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-text button {
+  border: 2px solid black;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+.para {
+  margin-top: 100px;
+  color: yellow;
+}
+
+/*Site Footer design Start*/
+/*Footer social media icons design Start*/
+.footer .social {
+  text-align: center;
+  padding: 10px;
+  color: #4c1434;
+}
+.footer .social a {
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+
+.footer .social a:hover {
+  opacity: 1;
+}
+/*Footer social media icons design End*/
+/*Footer Nav design Start*/
+
+.footer ul {
+  margin-top: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: inherit;
+  font-size: 18px;
+  margin: 0px;
+  padding: 10px 0;
+  box-sizing: border-box;
+  letter-spacing: 3px;
+  line-height: 1.6;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.footer ul li a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.footer ul li a:hover {
+  text-decoration: underline;
+  color: #4c1434;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #4c1434;
+  padding-bottom: 10px;
+}
 >>>>>>> Stashed changes
